@@ -75,7 +75,7 @@ spec:
   tls:
     - hosts:
         - docs.humans.zone
-      secretname: docs-testnet
+      secretName: docs-testnet
   rules:
     - host: docs.humans.zone
       http:
