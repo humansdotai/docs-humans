@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Humans Chain Documentation",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vuepress dev --no-cache",
+    "build": "vuepress build --no-cache"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob-parent": "^5.1.2",
+    "markdown-it": "^13.0.1",
+    "markdown-it-katex": "^2.0.3",
+    "vue": "^2.6.14",
+    "@nibiruchain/vuepress-theme-cosmos": "^0.0.185"
+  },
+  "devDependencies": {
+    "watchpack": "^2.2.0"
+  }
+}

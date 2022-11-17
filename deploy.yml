@@ -1,0 +1,89 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: docs
+  namespace: testnet
+  labels:
+    app: docs
+spec:
+  selector:
+    matchLabels:
+      app: docs
+  replicas: 1
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: docs
+    spec:
+      # initContainers:
+      # Init containers are exactly like regular containers, except:
+      # - Init containers always run to completion.
+      # - Each init container must complete successfully before the next one starts.
+      imagePullSecrets:
+        - name: regcred
+      containers:
+        - name: docs
+          imagePullPolicy: Always
+          image: registry.humans.ai/docs:latest
+          ports:
+            - containerPort: 80
+              name: docs
+          volumeMounts:
+            - name: localtime
+              mountPath: /etc/localtime
+      volumes:
+        - name: localtime
+          hostPath:
+            path: /usr/share/zoneinfo/Europe/Bucharest
+      restartPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: docs
+  namespace: testnet
+spec:
+  selector:
+    app: docs
+  type: ClusterIP
+  sessionAffinity: None
+  sessionAffinityConfig:
+    clientIP:
+      timeoutSeconds: 10800
+  ports:
+    - name: docs
+      protocol: TCP
+      port: 80
+      targetPort: 80
+---
+# https://kubernetes.io/docs/concepts/services-networking/ingress/#the-ingress-resource
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: docs
+  namespace: testnet
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt"
+    kubernetes.io/ingress.class: nginx
+spec:
+  tls:
+    - hosts:
+        - docs.humans.zone
+      secretname: docs-testnet
+  rules:
+    - host: docs.humans.zone
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: docs
+                port:
+                  number: 80
