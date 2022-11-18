@@ -2,7 +2,7 @@
 order: 1
 ---
 
-# Validating on Testnet
+# 🤖 Validating on Testnet
 
 Instructions running a validator node {synopsis}
 

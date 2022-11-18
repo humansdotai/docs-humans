@@ -80,7 +80,6 @@ tracked in validator object in the `Validators` index.
 It is possible to delegate to a jailed validator, the only difference being it
 will not be added to the power index until it is unjailed.
 
-![Delegation sequence](../../../docs/uml/svg/delegation_sequence.svg)
 
 ## MsgUndelegate
 
@@ -114,7 +113,6 @@ When this message is processed the following actions occur:
 * if there are no more `Shares` in the delegation, then the delegation object is removed from the store
     * under this situation if the delegation is the validator's self-delegation then also jail the validator.
 
-![Unbond sequence](../../../docs/uml/svg/unbond_sequence.svg)
 
 ## MsgCancelUnbondingDelegation
 
@@ -171,5 +169,3 @@ When this message is processed the following actions occur:
 * Delegate the token worth to the destination validator, possibly moving tokens back to the bonded state.
 * if there are no more `Shares` in the source delegation, then the source delegation object is removed from the store
     * under this situation if the delegation is the validator's self-delegation then also jail the validator.
-
-![Begin redelegation sequence](../../../docs/uml/svg/begin_redelegation_sequence.svg)

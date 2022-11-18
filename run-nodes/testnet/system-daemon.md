@@ -2,7 +2,7 @@
 order: 2
 ---
 
-# System Daemon
+#  System Daemon
 A daemon is a service process that runs in the background and supervises the system or provides functionality to other processes. We use daemons to ensure that the node daemon persists after restarts or crashes.{synopsis}
 ## Cosmovisor Setup (Option 1, recommended)
 

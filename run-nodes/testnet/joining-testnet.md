@@ -2,7 +2,7 @@
 order: 3
 ---
 
-# Joining Testnet
+# 🤖 Joining Testnet
 
 Testnets are testing instances of the Humans blockchain. Testnet tokens are separate and distinct from real assets. In order to join a network, you'll need to use its corresponding version of the binary to [run a full node](./node-daemon).{synopsis}
 
