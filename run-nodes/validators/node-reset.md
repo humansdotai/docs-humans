@@ -12,7 +12,7 @@ To reset your node and rejoin the testnet, please follow the steps below:
 ## Remove the old chain data and binary
 
 ```bash
-sudo rm -rf $HOME/.humansd
+sudo rm -rf $HOME/.humans
 sudo rm $HOME/go/bin/humansd
 ```
 

@@ -82,7 +82,9 @@ cd $HOME
 git clone https://github.com/humansdotai/humans
 cd humans
 git checkout v1.0.0
-make install
+go build -o humansd cmd/humansd/main.go
+# After build, copy directly to a /usr/local/bin folder
+sudo cp humansd /usr/local/bin/humansd
 ```
 ## Post-installation
 
@@ -106,7 +108,7 @@ export PATH=$PATH:$(go env GOPATH)/bin
 Lastly, you can run the chain for local development with 
 
 ```bash
-make localnet
+go run cmd/humansd/main.go
 ```
 
 After opening another terminal, you'll be able to use the full suite of `humansd` commands.

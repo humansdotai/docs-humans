@@ -97,6 +97,11 @@ module.exports = {
               path: "/dev/"
             },
             {
+              title: "Module Overview",
+              directory: true,
+              path: "/dev/x"
+            },
+            {
               title: "Humans CLI",
               directory: true,
               path: "/dev/cli"
