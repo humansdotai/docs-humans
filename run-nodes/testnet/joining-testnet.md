@@ -4,7 +4,7 @@ order: 3
 
 # 🤖 Joining Testnet
 
-Testnets are testing instances of the Humans blockchain. Testnet tokens are separate and distinct from real assets. In order to join a network, you'll need to use its corresponding version of the binary to [run a full node](./node-daemon).{synopsis}
+Testnets are testing instances of the Humans blockchain. Testnet tokens are separate and distinct from real assets. In order to join a network, you'll need to use its corresponding version of the binary to [run a full node](/dev/cli/humansd-binary.html).{synopsis}
 
 ## Available Networks
 
@@ -52,7 +52,7 @@ sudo apt upgrade --yes
 Please check for the correct version of the binary. 
 
 ::: tip
-If you have not installed `humansd`, please start with the instructions on building the [`humansd` binary](../../dev/cli/humansd-binary).
+If you have not installed `humansd`, please start with the instructions on building the [`humansd` binary](/dev/cli/humansd-binary.html).
 :::
 
 ```bash
@@ -64,7 +64,7 @@ v1.0.0
 
 ## Cosmovisor 
 
-Please follow the [`cosmovisor` setup instructions](./cosmovisor) if you haven't already.
+Please follow the [`cosmovisor` setup instructions](/run-nodes/testnet/system-daemon.html) if you haven't already.
 
 ## Init the Chain
 
@@ -173,6 +173,9 @@ Please follow the [`cosmovisor` setup instructions](./cosmovisor) if you haven't
 
 9. Request tokens from the [Discord Faucet for testnet-1](https://discord.com/channels/999302051538411671/1039540296540770385) in `#testnet-faucet` if required. Use $help to see the other functions of the faucet. Replace the address below with your own address. Please note, that current weekly request limit for the Discord Humans Faucet is 10HEART (`10000000uheart`).
 
+    :::tip
+    You need to obtain the `⚔️ Testnet` role by reacting in [ 👉🏻 | #roles](https://discord.com/channels/999302051538411671/999302052192735290) in order to see `#testnet-faucet`.
+    :::
 
 
     ```bash
@@ -193,9 +196,9 @@ Please follow the [`cosmovisor` setup instructions](./cosmovisor) if you haven't
 ## Next Steps
 
 ::: tip
-See the [validator docs](../validators) on how to participate as a validator.
+See the [validator docs](/run-nodes/validators/validating-on-testnet.html) on how to participate as a validator.
 :::
 
 For the full list of `humansd` commands, see:
-- The [`humansd` CLI introduction](../../dev/cli)
+- The [`humansd` CLI introduction](dev/cli/humansd-cli.html)
 - Humans [Module Reference](../../dev/x)

@@ -42,7 +42,7 @@ export PATH=<path-to-humansd>:$PATH
 
 ```bash
 # Or, copy directly to a /usr/local/bin folder
-cp humansd /usr/local/bin/humansd
+sudo    cp humansd /usr/local/bin/humansd
 ```
 
 ## Install Option 2 | Building from the Source Code
@@ -119,20 +119,3 @@ You'll need Docker to run commands that use external containers like `make proto
 
 ---
 
-## Next Steps
-
-#### Learn more about the:
-
-- [`humansd` Command-Line Interface][page-cli]
-- [Run a Full Node on Testnet][page-testnet]
-- [What's a Node Daemon?][page-node-daemon]
-- [Setup Cosmovisor][page-cosmovisor]
-- [Setup a Validator Node][page-validator]
-
-#### 
-
-[page-cosmovisor]: ../../run-nodes/testnet/cosmovisor
-[page-testnet]: ../../run-nodes/testnet
-[page-validator]: ../../run-nodes/validators
-[page-node-daemon]: ../../run-nodes/testnet/node-daemon
-[page-cli]: ./

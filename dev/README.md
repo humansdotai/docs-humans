@@ -18,7 +18,7 @@ The **`humansd` binary is needed for running nodes** and sending IBC transfers w
 
 ### Testnet Faucet
 
-- [Discord Testnet Faucet](https://discord.com/channels/999302051538411671/1039540296540770385): Send tokens to your wallet on testnet 
+- [Discord Testnet Faucet](https://discord.com/channels/999302051538411671/1039540296540770385): Send `$HEART` tokens to your Humans wallet on the testnet 
 
 
 

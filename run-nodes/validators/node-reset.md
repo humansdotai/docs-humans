@@ -5,10 +5,10 @@ order: 2
 # 🤖 Resetting a validator node
 
 Instructions for validators to rebuild in the case of a chain reset. {synopsis}
-
+::: tip
 Any upcoming resets will be announced in the `#testnet-announcements` channel on [Humans Discord server](https://discord.com/channels/999302051538411671/1039540079594582026). 
 To reset your node and rejoin the testnet, please follow the steps below:
-
+:::
 ## Remove the old chain data and binary
 
 ```bash
@@ -37,4 +37,4 @@ humansd version
 
 ## Recreate the validator
 
-Follow the same steps from ["Joining Testnet"](../testnet) and ["Validating on Testnet"](./) again.
+Follow the same steps from ["Joining Testnet"](/run-nodes/testnet/joining-testnet.html) and ["Validating on Testnet"](/run-nodes/validators/validating-on-testnet.html) again.
