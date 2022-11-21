@@ -2,7 +2,7 @@
 order: 2
 ---
 
-#  System Daemon
+#  🤖 System Daemon
 A daemon is a service process that runs in the background and supervises the system or provides functionality to other processes. We use daemons to ensure that the node daemon persists after restarts or crashes.{synopsis}
 ## Cosmovisor Setup (Option 1, recommended)
 
@@ -20,7 +20,7 @@ It's recommended to use Cosmovisor to run your node, however you can alternative
 Rather than having to do stressful DevOps tasks late at night, it's better if you can automate them away, and that's what Cosmovisor tries to do. It's wise to go through the `cosmovisor` setup instructions on testnet before running a full-node on mainnet. 
 
 ::: tip
-If you have not installed `humansd`, please start with the instructions on building the [`humansd` binary](../../dev/cli/humansd-binary).
+If you have not installed `humansd`, please start with the instructions on building the [`humansd` binary](/dev/cli/humansd-binary.html).
 :::
 
 ::: warning

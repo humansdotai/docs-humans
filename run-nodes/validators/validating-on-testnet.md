@@ -4,10 +4,10 @@ order: 1
 
 # 🤖 Validating on Testnet
 
-Instructions running a validator node {synopsis}
-
-As the first step, please follow the [instructions to join the testnet](../testnet).
-
+Instructions for running a validator node on the Humans testnet. {synopsis}
+::: tip
+As the first step, please follow the [instructions to join the testnet](/run-nodes/testnet/joining-testnet.html).
+:::
 ## Install the `humansd` binary
 
 Currently, the source code is not yet public, so pre-compiled binaries are required to run validator nodes.
@@ -55,7 +55,7 @@ humansd tx staking create-validator \
 --from <key-name>
 ```
 
-You can verify your node is in the validator set status by viewing the [Humans testnet block explorer](https://explorer.humans.zone/)
+You can verify your node is in the Active/Inactive validator set status by viewing the [Humans testnet block explorer](https://explorer.humans.zone/humans-testnet/staking)
 
 ### Editing the public description
 

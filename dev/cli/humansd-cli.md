@@ -66,9 +66,19 @@ All POST commands have the following global flags:
 | --home            | string | $HOME/.humans         | Directory for config and data                                                                                  |
 | --trace           | string |                       | Print out full stack trace on errors                                                                           |
 
-<!-- ### Module Commands
+## Next Steps
 
-| **Subcommand**             | **Description**                                           |
-| -------------------------- | --------------------------------------------------------- |
-| [perp](../x/perp.md#cli)   | Perp subcommands for querying and opening positions, etc. |
-| [vpool](../x/vpool.md#cli) | Vpool subcommands for querying vpools.                    | --> |
+#### Learn more about the:
+
+- [`humansd` Command-Line Interface][page-cli]
+- [Run a Full Node on Testnet][page-node-daemon]
+- [Setup a System Daemon][page-system-daemon]
+- [Setup a Validator Node][page-validator]
+
+#### 
+
+[page-system-daemon]: ../../run-nodes/testnet/system-daemon
+[page-testnet]: ../../run-nodes/testnet
+[page-validator]: ../../run-nodes/validators
+[page-node-daemon]: ../../run-nodes/testnet/node-daemon
+[page-cli]: ./

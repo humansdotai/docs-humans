@@ -16,7 +16,7 @@ Common questions about Humans and their answers. {synopsis}
 
 ### How can I get involved?
 
-* You can try out validating our network by following the [testnet instructions](http://localhost:8080/run-nodes/testnet/).
+* You can try out running a node our network by following the [testnet instructions](/run-nodes/testnet/node-daemon.md).
 
 --- 
 ## FAQ — HEART Token
@@ -57,4 +57,4 @@ In exchange for their work, they receive revenue to support their services, ofte
 
 ### How can I become a validator?
 
-There are instructions on how to set up various kinds of nodes in the [validator docs](http://localhost:8080/run-nodes/validators/). Reach out to the team on [Discord](https://discord.gg/humansdotai) if you need assistance.
+There are instructions on how to set up various kinds of nodes in the [validator docs](/run-nodes/validators/validating-on-testnet.html). Reach out to the team on [Discord](https://discord.gg/humansdotai) if you need assistance.

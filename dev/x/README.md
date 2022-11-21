@@ -4,7 +4,7 @@ order: 0
 
 # List of Modules
 
-Here are some production-grade modules that can be used in Cosmos SDK applications, along with their respective documentation:
+Here are some production-grade Cosmos SDK modules used by Humans, along with their respective documentation:
 
 * [Auth](auth/spec/README.md) - Authentication of accounts and transactions for Cosmos SDK applications.
 * [Authz](authz/spec/README.md) - Authorization for accounts to perform actions on behalf of other accounts.
