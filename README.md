@@ -35,7 +35,7 @@ Humans is IBC compliant at genesis and connected over 40 blockchains. IBC enable
 
 The security of the Humans blockchain relies on a set of validators to commit new blocks and participate in Tendermint BFT consensus by brodcasting votes that contain cryptographic signatures signed by each validator's private key. Validators stake **HEART**, the protocol's native token used for gas, governance, and "mining". Users can delegate **HEART** to validators that record and verify transactions in exchange for rewards.
 
-### [Frequently Asked Questions (FAQ)](./learn/faq)
+### [Frequently Asked Questions (FAQ)](/learn/faq.html)
 
 ### Contribution guidelines for this documentation
 

@@ -4,7 +4,7 @@ order: 2
 
 # ⚙️ Humansd Command-Line Interface (CLI)
 
-An introduction to the using the `humansd` CLI along with a brief description of commands and flags {synopsis}
+An introduction to the using the `humansd` CLI along with a brief description of commands and flags. {synopsis}
 
 ## Introduction
 
@@ -70,7 +70,6 @@ All POST commands have the following global flags:
 
 #### Learn more about the:
 
-- [`humansd` Command-Line Interface][page-cli]
 - [Run a Full Node on Testnet][page-node-daemon]
 - [Setup a System Daemon][page-system-daemon]
 - [Setup a Validator Node][page-validator]
@@ -79,6 +78,5 @@ All POST commands have the following global flags:
 
 [page-system-daemon]: ../../run-nodes/testnet/system-daemon
 [page-testnet]: ../../run-nodes/testnet
-[page-validator]: ../../run-nodes/validators
+[page-validator]: ../../run-nodes/validators/validating-on-testnet.html
 [page-node-daemon]: ../../run-nodes/testnet/node-daemon
-[page-cli]: ./
