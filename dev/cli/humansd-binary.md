@@ -42,7 +42,7 @@ export PATH=<path-to-humansd>:$PATH
 
 ```bash
 # Or, copy directly to a /usr/local/bin folder
-sudo    cp humansd /usr/local/bin/humansd
+sudo cp humansd /usr/local/bin/humansd
 ```
 
 ## Install Option 2 | Building from the Source Code

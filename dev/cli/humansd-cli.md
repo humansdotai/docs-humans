@@ -11,7 +11,7 @@ An introduction to the using the `humansd` CLI along with a brief description of
 `humansd` is a command line client for the Humans network. Humans users can use `humansd` to send transactions to the Humans network and query the blockchain data.
 
 ::: tip
-See ["Humans Setup"](./humansd-binary) for instructions on installing `humansd`.
+See ["Humans Setup"](/dev/cli/humansd-binary.html) for instructions on installing `humansd`.
 :::
 
 ### Working Directory
@@ -76,7 +76,6 @@ All POST commands have the following global flags:
 
 #### 
 
-[page-system-daemon]: ../../run-nodes/testnet/system-daemon
-[page-testnet]: ../../run-nodes/testnet
+[page-system-daemon]: ../../run-nodes/testnet/system-daemon.html
 [page-validator]: ../../run-nodes/validators/validating-on-testnet.html
-[page-node-daemon]: ../../run-nodes/testnet/node-daemon
+[page-node-daemon]: ../../run-nodes/testnet/node-daemon.html

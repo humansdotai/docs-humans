@@ -200,5 +200,5 @@ See the [validator docs](/run-nodes/validators/validating-on-testnet.html) on ho
 :::
 
 For the full list of `humansd` commands, see:
-- The [`humansd` CLI introduction](dev/cli/humansd-cli.html)
+- The [`humansd` CLI introduction](/dev/cli/humansd-cli.html)
 - Humans [Module Reference](../../dev/x)
