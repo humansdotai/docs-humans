@@ -109,11 +109,11 @@ Please follow the [`cosmovisor` setup instructions](/run-nodes/testnet/system-da
     Save the following text in a file named `persistent_peers.txt`.
 
     ```
-    08ab6a657484f9f86170a0b596d5b22c1afdc467@45.136.40.6:26656
-    09ab165e6c3f82fb28e0919c82f03acc45368b76@45.136.40.16:26656
-    1a081cde1cffb62578b699a05685f346806f62d5@45.136.40.18:26656
-    3d5bf237335d43065ee2c2bae2369a0866fc2166@45.136.40.13:26656
-    61517828a2197f8bd6cc0443f8603415c0479de9@45.136.40.12:26656
+    1df6735ac39c8f07ae5db31923a0d38ec6d1372b@45.136.40.6:26656
+    9726b7ba17ee87006055a9b7a45293bfd7b7f0fc@45.136.40.16:26656
+    6e84cde074d4af8a9df59d125db3bf8d6722a787@45.136.40.18:26656
+    eda3e2255f3c88f97673d61d6f37b243de34e9d9@45.136.40.13:26656
+    4de8c8acccecc8e0bed4a218c2ef235ab68b5cf2@45.136.40.12:26656
     ```
 
     Navigate to the directory with the `persistent_peers.txt` file and run
