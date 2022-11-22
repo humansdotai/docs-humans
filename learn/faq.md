@@ -12,7 +12,7 @@ Common questions about Humans and their answers. {synopsis}
 
 ### What is Humans?
 
-**Humans** is a next generation blockchain platform that brings together an ecosystem of stakeholders around the use of AI to create at scale. It combines a library of AI tools into a creative studio suite where users will be able to pick and choose as they bring their ideas to life. Individuals are empowered to create and own their digital likenesses, which may be used by themselves and others in the creation of any number of digital assets. The synthetic media, AI apps, and other digital assets utilize blockchain technology to generate Non-Fungible Tokens (NFTs) as a way of creating transparency, provenance, accountability, and long-term governance.
+**Humans** is a next-generation blockchain platform that brings together an ecosystem of stakeholders around the use of AI to create at scale. It combines a library of AI tools into a creative studio suite where users will be able to pick and choose as they bring their ideas to life. Individuals are empowered to create and own their digital likenesses, which may be used by themselves and other to create any number of digital assets. Synthetic media, AI apps, and other digital assets utilize blockchain technology to generate Non-Fungible Tokens (NFTs) as a way of creating transparency, provenance, accountability, and long-term governance.
 
 ### How can I get involved?
 
@@ -33,11 +33,11 @@ For now, only testnet HEART tokens are available via our [Discord faucet](https:
 
 ### What is the release schedule of HEART?
 
-The token release schedule is described in the [Tokenomics page](../learn/tokenomics.md).
+The token release schedule is described on the [Tokenomics page](../learn/tokenomics.md).
 
 ### Where can I go to get other questions answered?
 
-The best place to get questions answered quickly is the [Humans Discord](https://discord.gg/humansdotai). For suggestions, issues, and feature requests on specific applications, the team is also response on GitHub: [github.com/humansdotai](https://github.com/humansdotai).
+The best place to get questions answered quickly is the [Humans Discord](https://discord.gg/humansdotai). For suggestions, issues, and feature requests on specific applications, the team can also be reached out to on GitHub: [github.com/humansdotai](https://github.com/humansdotai).
 
 ---
 
@@ -49,7 +49,7 @@ Validators are responsible for committing new blocks and participating in consen
 
 ### What does it mean to stake or delegate?
 
-Staking is the process of committing your HEART tokens to running a validator, thus further decentralizing the network.
+Staking is the process of committing your HEART tokens to run a validator, thus further decentralizing the network.
 The Humans Zone is a public Proof-Of-Stake (PoS) blockchain, meaning that the weight of validators is determined by the amount of staking tokens (HEART) bonded as collateral.
 
 These HEART tokens can be self-delegated directly by the validator or delegated to the validator by other HEART holders. Validators participate in consensus and commit new blocks to the chain.
