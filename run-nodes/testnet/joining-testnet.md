@@ -8,7 +8,7 @@ Testnets are testing instances of the Humans blockchain. Testnet tokens are sepa
 
 ## Available Networks
 
-You can find a table of each Humans testnet and its current status below. 
+Below you can find a table of each Humans testnet and its current status. 
 
 | Network | Chain ID  | Description              | Version | Status |
 | ------- | --------- | ------------------------ | ------- | ------ |
@@ -16,7 +16,7 @@ You can find a table of each Humans testnet and its current status below.
 
 ::: tip
 You can see current status of the blockchain at the [Humans Block Explorer](https://explorer.humans.zone/humans-testnet).
-The explorer allows you to search through transactions, blocks, wallet addresses, and other on-chain data.
+The block explorer allows you to search through transactions, blocks, wallet addresses, and other on-chain data.
 :::
 
 ## Blockchain Parameters
@@ -94,15 +94,6 @@ Please follow the [`cosmovisor` setup instructions](/run-nodes/testnet/system-da
     ```bash
     cp genesis.json $HOME/.humans/config/genesis.json
     ```
-  
-<!-- 
-    **Genesis.json sha256**
-    
-    ```bash
-    shasum -a 256 $HOME/.nibid/config/genesis.json
-    94fbd99543f4b7da14f292ea1c61b21ba753e3a84cca64454b8c2fd2d209e6de $HOME/.nibid/config/genesis.json
-    ``` 
--->
 
 4. Update persistent peers list in the configuration file `$HOME/.humans/config/config.toml`.
 
@@ -158,7 +149,7 @@ Please follow the [`cosmovisor` setup instructions](/run-nodes/testnet/system-da
     \"$PRUNING_INTERVAL\"/" $HOME/.humans/config/app.toml
     ```
 
-8. Start your node (choose one of the options)
+8. Start your node by choosing one of the options below:
 
     ```bash
     # without a daemon
@@ -174,7 +165,7 @@ Please follow the [`cosmovisor` setup instructions](/run-nodes/testnet/system-da
 9. Request tokens from the [Discord Faucet for testnet-1](https://discord.com/channels/999302051538411671/1039540296540770385) in `#testnet-faucet` if required. Use $help to see the other functions of the faucet. Replace the address below with your own address. Please note, that current weekly request limit for the Discord Humans Faucet is 10HEART (`10000000uheart`).
 
     :::tip
-    You need to obtain the `⚔️ Testnet` role by reacting in [ 👉🏻 | #roles](https://discord.com/channels/999302051538411671/999302052192735290) in order to see `#testnet-faucet`.
+    You need to obtain the `⚔️ Testnet` role by reacting in [ 👉🏻 | #roles](https://discord.com/channels/999302051538411671/999302052192735290) to see `#testnet-faucet`.
     :::
 
 
@@ -185,7 +176,7 @@ Please follow the [`cosmovisor` setup instructions](/run-nodes/testnet/system-da
 10. The output should look something similar to this.
 
     ```js
-    {
+    @YourDiscordHandle - {
     "transaction": "3D14B2B146F618F81381786807A8EB7F1E3053F5494F6FDD99BF9CC20F4B7D5D",
     "block": 49335,
     "gas": 76364    

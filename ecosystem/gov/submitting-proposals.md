@@ -1,14 +1,14 @@
 # ⚖ Submitting Proposals
 <!-- omit in toc -->
 
-This section describes how to submit governance proposals on Humans. {synopsis}
+This section describes how to submit governance proposals in the Humans AI ecosystem. {synopsis}
 
-Any HEART holder, whether bonded or unbonded, can submit proposals by sending a `TxGovProposal` transaction. This is possible using the `humansd` CLI. Each proposal type corresponds to a subcommand of `humansd tx gov submit-proposal`.
+Any $HEART holder, whether bonded or unbonded, can submit proposals by sending a `TxGovProposal` transaction. This can be done with the `humansd` CLI. Each proposal type corresponds to a subcommand of the `humansd tx gov submit-proposal`.
 
 #### Table of Contents
 
-- [⚖️Proposal Types](#⚖%EF%B8%8F-proposal-types)
-- [⚖️Querying a proposal](#⚖%EF%B8%8F-querying-a-proposal)
+  - [⚖️ Proposal Types](#⚖%EF%B8%8F-proposal-types)
+  - [⚖️ Querying a proposal](#⚖%EF%B8%8F-querying-a-proposal)
 
 
 ## ⚖️ Proposal Types
@@ -17,7 +17,6 @@ Any HEART holder, whether bonded or unbonded, can submit proposals by sending a 
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `cancel-software-upgrade` | Cancels a software upgrade.                                                                                                                                                                                                                                          |
 | `community-pool-spend`    | Details a proposal for use of community funds, together with how many coins are proposed to be spent, and to which recipient account.                                                                                                                                |
-| `create-pool`             | Creates a new Nibi-Perps trading pair by initializing a virtual AMM pool.                                                                                                                                                                                            |
 | `ibc-upgrade`             | Updates the IBC client state in-place. An `upgraded_client_state.json` can be client-breaking.                                                                                                                                                                       |
 | `param-change`            | Change module parameters.                                                                                                                                                                                                                                            |
 | `software-upgrade`        | Upgrade the protocol code.                                                                                                                                                                                                                                           |
@@ -25,7 +24,7 @@ Any HEART holder, whether bonded or unbonded, can submit proposals by sending a 
 
 ## ⚖️ Querying a proposal
 
-One can use the following command to query for proposals:
+The following commands can be used for a query for proposals:
 
 ```bash
 # parameters

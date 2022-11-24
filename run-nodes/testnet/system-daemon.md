@@ -14,7 +14,7 @@ If `cosmovisor` sees a proposal get approved, it can automatically download the 
 Cosmovisor allows you to download binaries ahead of time for chain upgrades, meaning that you can do **zero (or close to zero) downtime chain upgrades**. It's also useful if your timezone doesn't align well with a chain upgrade. 
 
 ::: tip 
-It's recommended to use Cosmovisor to run your node, however you can alternatively use `systemd`. 
+We recommend using Cosmovisor to run your node. As an alternative, you can use `systemd`. 
 :::
 
 Rather than having to do stressful DevOps tasks late at night, it's better if you can automate them away, and that's what Cosmovisor tries to do. It's wise to go through the `cosmovisor` setup instructions on testnet before running a full-node on mainnet. 
