@@ -7,8 +7,8 @@ Any $HEART holder, whether bonded or unbonded, can submit proposals by sending a
 
 #### Table of Contents
 
-  - [⚖️ Proposal Types](#️-proposal-types)
-  - [⚖️ Querying a proposal](#️-querying-a-proposal)
+  - [⚖️ Proposal Types](#⚖%EF%B8%8F-proposal-types)
+  - [⚖️ Querying a proposal](#⚖%EF%B8%8F-querying-a-proposal)
 
 
 ## ⚖️ Proposal Types
