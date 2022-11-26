@@ -162,7 +162,7 @@ Please follow the [`cosmovisor` setup instructions](/run-nodes/testnet/system-da
     sudo systemctl start cosmovisor-humans
     ```
 
-9. Request tokens from the [Discord Faucet for testnet-1](https://discord.com/channels/999302051538411671/1039540296540770385) in `#testnet-faucet` if required. Use $help to see the other functions of the faucet. Replace the address below with your own address. Please note, that current weekly request limit for the Discord Humans Faucet is 10HEART (`10000000uheart`).
+9. Request tokens from the [Discord Faucet for testnet-1](https://discord.gg/humansdotai) in `#testnet-faucet` if required. Use $help to see the other functions of the faucet. Replace the address below with your own address. Please note, that current weekly request limit for the Discord Humans Faucet is 10HEART (`10000000uheart`).
 
     :::tip
     You need to obtain the `⚔️ Testnet` role by reacting in [ 👉🏻 | #roles](https://discord.com/channels/999302051538411671/999302052192735290) to see `#testnet-faucet`.
