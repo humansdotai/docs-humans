@@ -8,7 +8,7 @@ An introduction to the using the `humansd` CLI along with a brief description of
 
 ## Introduction
 
-`humansd` is a command line client for the Humans network. Humans users can use `humansd` to send transactions to the Humans network and query the blockchain data.
+`humansd` is a command-line client for the Humans network. Humans users can use `humansd` to send transactions to the Humans network and query the blockchain data.
 
 ::: tip
 See ["Humans Setup"](/dev/cli/humansd-binary.html) for instructions on installing `humansd`.

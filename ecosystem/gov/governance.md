@@ -29,7 +29,7 @@ To avoid spamming, proposals must be submitted with a deposit in the coins defin
 
 When a proposal is submitted, it needs to be accompanied by a deposit that has a positive value. The initial deposit can be inferior to the `MinDeposit` param.  The initial submitter isn't required to pay the entire deposit on their own. If a proposal's deposit is lower than the `MinDeposit`, other token holders can contribute to the proposal's deposit by sending a `Deposit` transaction. The deposit is kept in an escrow in the governance `ModuleAccount` until the proposal is finalized (passed or rejected).
 
-When the proposal's deposit equals the value of `MinDeposit`, the proposal enters the voting period. If a proposal's deposit does not equal the value of `MinDeposit` before the `MaxDepositPeriod` expires, proposal closes and nobody can deposit on it anymore.
+When the proposal's deposit equals the value of `MinDeposit`, the proposal enters the voting period. If a proposal's deposit does not equal the value of `MinDeposit` before the `MaxDepositPeriod` expires, the proposal closes and nobody can deposit on it anymore.
 
 #### Deposit refund and burn
 
@@ -49,7 +49,7 @@ Note that some _participants_ can be prohibited from voting on a proposal under 
 * bonded or unbonded HEART to the respective validator after the proposal entered the voting period.
 * achieved validator status after the proposal enters the voting period
 
-This does not prevent _participant_ to vote with HEART bonded to other validators. For example, suppose there are two validators: `valA` and `valB`. Suppose a _participant_ bonds some $HEART to `valA` before a proposal enters voting period and bonds other $HEART to `valB` after the proposal enters its voting period. In that case, the vote made under `valB` will be prohibited.
+This does not prevent _participants_ to vote with HEART bonded to other validators. For example, suppose there are two validators: `valA` and `valB`. Suppose a _participant_ bonds some $HEART to `valA` before a proposal enters voting period and bonds other $HEART to `valB` after the proposal enters its voting period. In that case, the vote made under `valB` will be prohibited.
 
 #### Voting period
 
@@ -76,7 +76,7 @@ ADR-037 introduced the weighted vote feature that allows a staker to split their
 It's not unusual for an address to be owned by more than one individual. For example, a company can have multiple stakeholders who want to vote differently. In this scenario, it makes sense to allow them to split their voting power. Currently, they can't do "passthrough voting" and give their users voting rights over their tokens. However, the system allows exchanges to poll their users for voting preferences and vote on-chain proportionally to the results of the poll.
 
 
-To represent weighted vote on chain, we use the following [Protobuf](https://developers.google.com/protocol-buffers/docs/overview) message.
+To represent weighted vote on-chain, we use the following [Protobuf](https://developers.google.com/protocol-buffers/docs/overview) message.
 
 ```protobuf
 // WeightedVoteOption defines a unit of vote for vote split.

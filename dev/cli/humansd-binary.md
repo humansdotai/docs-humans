@@ -4,11 +4,11 @@ order: 1
 
 # ⚙️ Installing the Humans Binary
 
-Instructions on building and installing the `humansd` binary. `humans` is a command line client for the Humans blockchain. Humans users can use `humansd` to send transactions to the Humans network, query data from the chain, and run nodes. To install the `humans` binary, you can either (1) download the binary from the humansdotai/humans releases page (2) or build the binary directly from the source code. {synopsis}
+Instructions on building and installing the `humansd` binary. `humans` is a command-line client for the Humans blockchain. Humans users can use `humansd` to send transactions to the Humans network, query data from the chain, and run nodes. To install the `humans` binary, you can either (1) download the binary from the humansdotai/humans releases page (2) or build the binary directly from the source code. {synopsis}
 
 ## Install Option 1 | Downloading the binary
 
-You'll need one of the `darwin_` binaries if you're using MacOS and one of the `linux_` binaries if you're using something like Ubuntu or WSL.
+You'll need one of the `darwin_` binaries if you're using macOS and one of the `linux_` binaries if you're using something like Ubuntu or WSL.
 
 To know whether you'll need the `amd64` or `arm64`, run one of the following commands:
 
@@ -57,7 +57,7 @@ sudo apt install git build-essential ufw curl jq snapd --yes
 
 ### 2.2 — Install Go
 
-The installation process for Go depends on your OS. Humans is meant to build with a Unix system such as MacOS, Ubuntu, or WSL. Please install Go v1.18 using the instructions at [go.dev/doc/install](https://go.dev/doc/install). For Ubuntu, you can use:
+The installation process for Go depends on your OS. Humans is meant to build with a Unix system such as macOS, Ubuntu, or WSL. Please install Go v1.18 using the instructions at [go.dev/doc/install](https://go.dev/doc/install). For Ubuntu, you can use:
 
 ```bash
 wget https://golang.org/dl/go1.18.2.linux-amd64.tar.gz
