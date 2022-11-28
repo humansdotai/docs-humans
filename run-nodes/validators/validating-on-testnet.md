@@ -26,7 +26,7 @@ humansd config chain-id testnet-1
 
 Every network participant in the network can become a validator by sending a `create-validator` transaction. You will be required to specify the following parameters:
 
-- **`commistion-max-change-rate`**: The maximum daily increase of the validator commission. This parameter is fixed cannot be changed after the `create-validator` transaction is processed.
+- **`commision-max-change-rate`**: The maximum daily increase of the validator commission. This parameter is fixed cannot be changed after the `create-validator` transaction is processed.
 - **`commision-max-rate`**: The maximum commission rate that this validator can charge. This parameter is fixed and cannot be changed after the `create-validator` transaction is processed.
 - **`commision-rate`**: The commission rate on block rewards and fees charged to delegators. **Note**: The `commission-rate` value must adhere to the following invariants:
   * Must be between 0 and the validator's `commission-max-rate`
