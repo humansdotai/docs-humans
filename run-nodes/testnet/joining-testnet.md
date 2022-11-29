@@ -52,7 +52,7 @@ sudo apt upgrade --yes
 Please check for the correct version of the binary. 
 
 ::: tip
-If you have not installed `humansd`, please start with the instructions on building the [`humansd` binary](/dev/cli/humansd-binary.html).
+If you have not installed `humansd`, please start with the instructions on building the [`humansd` binary](/dev/cli/humansd-binary.html). Please note that the version is displayed ONLY if you run the released binary, otherwise nothing will be displayed.
 :::
 
 ```bash
