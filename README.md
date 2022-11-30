@@ -7,7 +7,7 @@ footer:
 # Humans Chain
 
 **Humans** is a sovereign proof-of-stake next-generation blockchain platform that brings together an ecosystem of stakeholders around the use of AI to create at scale.
-Soon to be a member of the **#IBCGang**, the interconnected family of blockchains that compromise the Cosmos Ecosystem.
+Soon to be a member of the **#IBCgang**, the interconnected family of blockchains that comprise the Cosmos Ecosystem.
 
 It combines a library of AI tools into a creative studio suite where users will be able to pick and choose as they bring their ideas to life.
 Individuals are empowered to create and own their digital likenesses, which may be used by themselves and others to create any number of digital assets. Synthetic media, AI apps, and other digital assets utilize blockchain technology to generate Non-Fungible Tokens (NFTs) as a way of creating transparency, provenance, accountability, and long-term governance.  
