@@ -3,7 +3,7 @@ order: 2
 ---
 
 #  🤖 System Daemon
-A daemon is a service process that runs in the background and supervises the system or provides functionality to other processes. We use daemons to ensure that the node daemon persists after restarts or crashes.{synopsis}
+A **daemon** is a service process that runs in the background and supervises the system or provides functionality to other processes. We use **daemons** to ensure that the **node daemon** persists after restarts or crashes.{synopsis}
 ## Cosmovisor Setup (Option 1, recommended)
 
 
@@ -30,17 +30,17 @@ When using Cosmovisor, make sure that you DO NOT have auto download of binaries 
 1. Install Cosmovisor  
     Option 1 - From source
     ```bash
-    git clone https://github.com/cosmos/cosmos-sdk
+    git clone github.com/cosmos/cosmos-sdk
     cd cosmos-sdk
-    git checkout cosmovisor/v1.2.0
+    git checkout cosmovisor/v0.43.x
     make cosmovisor
     cp cosmovisor/cosmovisor $GOPATH/bin/cosmovisor
     cd $HOME
     ```
 
-    Option 2 - With `go get`:
+    Option 2 - With `go install`:
     ```bash
-    go get github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor
+    go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@latest
     ```
 
 2. Set up enviroment variables
@@ -58,7 +58,7 @@ When using Cosmovisor, make sure that you DO NOT have auto download of binaries 
     mkdir -p $DAEMON_HOME/cosmovisor/upgrades
     ```
 
-4. Add the genesis version of the binary (currently it is `v0.15`). You can verify your binary location with `which humansd` command. For the default location you can use the example below:
+4. Add the genesis version of the binary (currently it is `v1.0.0`). You can verify your binary location with `which humansd` command. For the default location you can use the example below:
 
     ```bash
     cp ~/go/bin/humansd $DAEMON_HOME/cosmovisor/genesis/bin
@@ -132,5 +132,5 @@ When using Cosmovisor, make sure that you DO NOT have auto download of binaries 
 
     ```bash
     sudo systemctl daemon-reload
-    sudo systemctl enable humans
+    sudo systemctl enable humansd
     ```

@@ -2,7 +2,7 @@
 order: 1
 ---
 
-# 🤖 Validating on Testnet
+# 🤖 Validate on Testnet
 
 Instructions for running a validator node on the Humans testnet. {synopsis}
 ::: tip
@@ -16,7 +16,7 @@ Please follow the binary installation instructions if you have not already.
 #### Save the Chain ID to your `humansd` config
 
 We recommend saving the `chain-id` into your `client.toml`. 
-This prevents you from havging to pass the `chain-id` flag with every CLI command.
+This prevents you from having to pass the `chain-id` flag with every CLI command.
 
 ```sh
 humansd config chain-id testnet-1

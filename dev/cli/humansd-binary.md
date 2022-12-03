@@ -26,6 +26,11 @@ Download the binary from the [humansdotai/humans releases](https://github.com/hu
 
 ![](../../img/github_release.png)
 
+```bash
+wget https://github.com/humansdotai/humans/releases/download/latest/humans_latest_linux_amd64.tar.gz
+# Downloads the latest "humansd" binary for amd64 platforms from Github releases.
+```
+
 After downloading the tar file containing the binary, you'll need to unpack it. Here's an example command for unpacking the tar file.
 
 ```bash

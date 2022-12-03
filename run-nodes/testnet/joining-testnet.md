@@ -2,9 +2,9 @@
 order: 3
 ---
 
-# 🤖 Joining Testnet
+# 🤖 Join Testnet
 
-Testnets are testing instances of the Humans blockchain. Testnet tokens are separate and distinct from real assets. In order to join a network, you'll need to use its corresponding version of the binary to [run a full node](/dev/cli/humansd-binary.html).{synopsis}
+**Testnets** are testing instances of the Humans blockchain. **Testnet** tokens are separate and distinct from real assets. In order to join a network, you'll need to use its corresponding version of the binary to [run a full node](/dev/cli/humansd-binary.html).{synopsis}
 
 ## Available Networks
 
@@ -156,7 +156,7 @@ Please follow the [`cosmovisor` setup instructions](/run-nodes/testnet/system-da
     humansd start
 
     # with systemd
-    sudo systemctl start humans
+    sudo systemctl start humansd
 
     # with cosmovisor
     sudo systemctl start cosmovisor-humans
