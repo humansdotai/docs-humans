@@ -2,7 +2,7 @@
 order: 2
 ---
 
-# 🤖 Reset a validator node
+# 🤖 Rebuild a validator node
 
 Instructions for validators to rebuild in the case of a chain reset. {synopsis}
 ::: tip
