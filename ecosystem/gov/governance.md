@@ -20,7 +20,7 @@ The governance process is divided into the following steps:
   * Inheritance and penalties: Delegators inherit their validator's vote if they don't vote themselves.
 * If the proposal involves a software upgrade:
   * **Signal:** Validators start signaling that they are ready to switch to the new version.
-  * **Switch:** When more than 67% of validators signal that they are ready to switch to the software upgrade, their software automatically upgrades to the new version.x`
+  * **Switch:** When more than 67% of validators signal that they are ready to switch to the software upgrade, their software automatically upgrades to the new version.
 
 
 ### ⚖️ — Deposit
