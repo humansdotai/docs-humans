@@ -33,7 +33,7 @@ Every network participant in the network can become a validator by sending a `cr
   * Must not exceed the validator's `commission-max-change-rate`, which is the maximum percentage point change rate **per day**. In other words, a validator can only change its commission once per day and within `commission-max-change-rate` bounds.
 - **`min-self-delegation`**: Minimum amount of $HEART the validator requires to have bonded at all time. If the validator's self-delegated stake falls below this limit, their validator gets jailed and kicked out of the active validator set.
 - **`details`**: The validator description. More information is given on this in the next section.
-- **`pubkey`**: A validator's Tendermint pubkey is associated with a private key used to sign "prevotes" and "precommits". It is prefixed with `humanvalconspub` and found by executing `humansd tendermint show-validator`.
+- **`pubkey`**: A validator's Tendermint pubkey is associated with a private key used to sign "prevotes" and "precommits". It is prefixed with `humanvalcons` and found by executing `humansd tendermint show-address`.
 - **`moniker`**: The validator's name. (It doesn't need to be unique)
  
 After a validator is created, $HEART holders can delegate $HEART to the validator, effectively adding a stake to the validator's pool. The total stake of an address is the combination of $HEART bonded by delegators and $HEART self-bonded by the validator.
