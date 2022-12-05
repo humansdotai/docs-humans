@@ -2,7 +2,7 @@
 order: 2
 ---
 
-# 🤖 Resetting a validator node
+# 🤖 Rebuild a validator node
 
 Instructions for validators to rebuild in the case of a chain reset. {synopsis}
 ::: tip
@@ -37,4 +37,4 @@ humansd version
 
 ## Recreate the validator
 
-Follow the same steps from ["Joining Testnet"](/run-nodes/testnet/joining-testnet.html) and ["Validating on Testnet"](/run-nodes/validators/validating-on-testnet.html) again.
+Follow the same steps from ["Join Testnet"](/run-nodes/testnet/joining-testnet.html) and ["Validating on Testnet"](/run-nodes/validators/validating-on-testnet.html) again.

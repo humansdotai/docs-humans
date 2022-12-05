@@ -2,9 +2,9 @@
 order: 3
 ---
 
-# 🤖 Joining Testnet
+# 🤖 Join Testnet
 
-Testnets are testing instances of the Humans blockchain. Testnet tokens are separate and distinct from real assets. In order to join a network, you'll need to use its corresponding version of the binary to [run a full node](/dev/cli/humansd-binary.html).{synopsis}
+**Testnets** are testing instances of the Humans blockchain. **Testnet** tokens are separate and distinct from real assets. In order to join a network, you'll need to use its corresponding version of the binary to [run a full node](/dev/cli/humansd-binary.html).{synopsis}
 
 ## Available Networks
 
@@ -52,7 +52,7 @@ sudo apt upgrade --yes
 Please check for the correct version of the binary. 
 
 ::: tip
-If you have not installed `humansd`, please start with the instructions on building the [`humansd` binary](/dev/cli/humansd-binary.html).
+If you have not installed `humansd`, please start with the instructions on building the [`humansd` binary](/dev/cli/humansd-binary.html). Please note that the version is displayed ONLY if you run the released binary, otherwise nothing will be displayed.
 :::
 
 ```bash
@@ -156,13 +156,13 @@ Please follow the [`cosmovisor` setup instructions](/run-nodes/testnet/system-da
     humansd start
 
     # with systemd
-    sudo systemctl start humans
+    sudo systemctl start humansd
 
     # with cosmovisor
     sudo systemctl start cosmovisor-humans
     ```
 
-9. Request tokens from the [Discord Faucet for testnet-1](https://discord.com/channels/999302051538411671/1039540296540770385) in `#testnet-faucet` if required. Use $help to see the other functions of the faucet. Replace the address below with your own address. Please note, that current weekly request limit for the Discord Humans Faucet is 10HEART (`10000000uheart`).
+9. Request tokens from the [Discord Faucet for testnet-1](https://discord.gg/humansdotai) in `#testnet-faucet` if required. Use $help to see the other functions of the faucet. Replace the address below with your own address. Please note, that current weekly request limit for the Discord Humans Faucet is 10HEART (`10000000uheart`).
 
     :::tip
     You need to obtain the `⚔️ Testnet` role by reacting in [ 👉🏻 | #roles](https://discord.com/channels/999302051538411671/999302052192735290) to see `#testnet-faucet`.

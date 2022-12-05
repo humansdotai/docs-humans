@@ -88,7 +88,7 @@ module.exports = {
           ]
         },
         {
-          title: "Protocol Development",
+          title: "Humans Protocol",
           path: "dev",
           children: [
             {
@@ -109,10 +109,10 @@ module.exports = {
           ]
         },
         {
-          title: "Running Nodes",
+          title: "How to run a node",
           children: [
             {
-              title: "Running a Full Node",
+              title: "Run a Full Node",
               directory: true,
               path: "/run-nodes/testnet"
             },
@@ -190,18 +190,14 @@ module.exports = {
           service: "discord",
           url: "https://discorg.gg/humansdotai"
         },
-        // {
-        //   service: "reddit",
-        //   url: "https://reddit.com/r/cosmosnetwork"
-        // },
-        // {
-        //   service: "telegram",
-        //   url: "https://t.me/cosmosproject"
-        // },
-        // {
-        //   service: "youtube",
-        //   url: "https://www.youtube.com/c/CosmosProject"
-        // }
+        {
+          service: "telegram",
+          url: "https://t.me/humansdotai"
+        },
+        {
+          service: "youtube",
+          url: "https://www.youtube.com/@Humansdotai"
+        }
       ],
       smallprint:
         "[Terms of Use](https://humans.ai/terms-of-use) | [Privacy Policy](https://humans.ai/privacy-policy) | The development of [Humans](https://github.com/humansdotai) is led primarily by Humans Token AG.",
