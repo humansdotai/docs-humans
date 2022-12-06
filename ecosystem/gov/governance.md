@@ -42,7 +42,7 @@ When a proposal is finalized, the coins from the deposit are either refunded or 
 
 #### Participants
 
-_Participants_ are users that have the right to vote on proposals. In the Cosmos Hub, participants are bonded HEART stakers. Unbonded HEART holders and other users do not get the right to participate in governance. However, they are able to submit and deposit on proposals.
+_Participants_ are users that have the right to vote on proposals. In the Humans Zone, participants are bonded HEART stakers. Unbonded HEART holders and other users do not get the right to participate in governance. However, they are able to submit and deposit on proposals.
 
 Note that some _participants_ can be prohibited from voting on a proposal under a certain validator if the participant has:
 
