@@ -30,11 +30,11 @@ When using Cosmovisor, make sure that you DO NOT have auto download of binaries 
 1. Install Cosmovisor  
     Option 1 - From source
     ```bash
-    git clone github.com/cosmos/cosmos-sdk
+    git clone https://github.com/cosmos/cosmos-sdk
     cd cosmos-sdk
-    git checkout cosmovisor/v0.43.x
+    git reset --hard v0.46.3
     make cosmovisor
-    cp cosmovisor/cosmovisor $GOPATH/bin/cosmovisor
+    sudo cp cosmovisor/cosmovisor /usr/local/bin/
     cd $HOME
     ```
 
@@ -61,7 +61,7 @@ When using Cosmovisor, make sure that you DO NOT have auto download of binaries 
 4. Add the genesis version of the binary (currently it is `v1.0.0`). You can verify your binary location with `which humansd` command. For the default location you can use the example below:
 
     ```bash
-    cp ~/go/bin/humansd $DAEMON_HOME/cosmovisor/genesis/bin
+    cp $(which humansd) $DAEMON_HOME/cosmovisor/genesis/bin
     ```
 
 5. Create the service for the Cosmovisor

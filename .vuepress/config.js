@@ -73,11 +73,6 @@ module.exports = {
               path: "/",
             },
             {
-              title: "Governance",
-              directory: true,
-              path: "/ecosystem/gov"
-            },
-            {
               title: "Humans Blog",
               path: "https://medium.com/@HumansAI"
             },
@@ -95,6 +90,11 @@ module.exports = {
               title: "Development Overview",
               directory: false,
               path: "/dev/"
+            },
+            {
+              title: "Governance",
+              directory: true,
+              path: "/ecosystem/gov"
             },
             {
               title: "Humans CLI",
