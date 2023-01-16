@@ -20,7 +20,7 @@ The governance process is divided into the following steps:
   * Inheritance and penalties: Delegators inherit their validator's vote if they don't vote themselves.
 * If the proposal involves a software upgrade:
   * **Signal:** Validators start signaling that they are ready to switch to the new version.
-  * **Switch:** When more than 67% of validators signal that they are ready to switch to the software upgrade, their software automatically upgrades to the new version.x`
+  * **Switch:** When more than 67% of validators signal that they are ready to switch to the software upgrade, their software automatically upgrades to the new version.
 
 
 ### ⚖️ — Deposit
@@ -42,7 +42,7 @@ When a proposal is finalized, the coins from the deposit are either refunded or 
 
 #### Participants
 
-_Participants_ are users that have the right to vote on proposals. In the Cosmos Hub, participants are bonded HEART stakers. Unbonded HEART holders and other users do not get the right to participate in governance. However, they are able to submit and deposit on proposals.
+_Participants_ are users that have the right to vote on proposals. In the Humans Zone, participants are bonded HEART stakers. Unbonded HEART holders and other users do not get the right to participate in governance. However, they are able to submit and deposit on proposals.
 
 Note that some _participants_ can be prohibited from voting on a proposal under a certain validator if the participant has:
 
