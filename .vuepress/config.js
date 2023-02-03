@@ -188,7 +188,7 @@ module.exports = {
         },
         {
           service: "discord",
-          url: "https://discorg.gg/humansdotai"
+          url: "https://discord.gg/humansdotai"
         },
         {
           service: "telegram",
